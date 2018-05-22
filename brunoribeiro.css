@@ -1,0 +1,360 @@
+body {
+	color: #333;
+	max-width: 60em;
+	outline: 2px;
+	margin: 1em auto;
+	line-height: 1.8em;
+	}
+
+
+p, h2, h3, h4, h5 {
+  max-width:36em;
+  margin: auto;
+  clear: both;
+  float: none;
+}
+
+
+h1 {
+  font-weight:bold;
+  margin-top:  2em;
+  margin-bottom: 1em;
+  letter-spacing: normal;
+  font-size: 2em;
+}
+
+
+
+h2 {
+  font-size: 1.3em;
+  margin: 2em 0 1em;
+  font-weight: normal;
+  text-transform: none;. 
+  letter-spacing: 0.05em;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-weight:normal;
+  margin: 1em 0 0 0;
+}
+
+h4 {
+  font-size: 1.1em;
+  font-weight:normal;
+  margin: 2em 0 0 0;
+}
+h5 {
+  font-size: 1em;
+  margin: 2em 0 0 0;
+  font-weight:normal;
+}
+h6 {
+  font-size: 0.75em;
+  line-height:2em;
+  margin-top: 1em;
+  color:#333;
+  max-width:48em;
+}
+
+p {
+  margin-bottom:1em;
+}
+
+
+p, li {
+	font-family: Georgia;
+	}
+
+h1, h2, h3, h4, h5, h1 a, .menu ul li a, h5 a  {
+	font-family: Helvetica, sans-serif;
+	color: #333;
+}
+
+ul.submenu li a  {
+	font-family: Helvetica, sans-serif;
+	color: #333;
+}
+
+ul li a:hover {
+	color: #e22;
+}
+
+
+ul li.selected a {
+	color: #e22;
+}
+
+
+
+h2, h3, h4, h5{
+	font-weight: normal;
+}
+
+.header {
+	margin-bottom: 4em;	
+}
+
+.header h1 {
+	font-weight:bold;
+	margin-top: 2.25em;
+	max-width:20em;
+	margin-bottom:1em;
+	letter-spacing: normal;
+	font-size: 1.2em;
+	float: left;
+	width: 10em;
+	min-height: 1em;
+}
+
+li h2 {
+margin-bottom: 0;
+}
+
+.header ul {
+	margin-top: 2.8em;
+	float: left;
+/* 
+	background: red;
+ */
+}
+
+div.menu {
+	margin-bottom: 1em;
+
+}
+
+.menu ul {
+	min-height: 1.5em;
+}
+
+.menu ul li {
+	float: left;
+	margin-right: 2em;
+	min-height: 1.5em;
+}
+
+ul.submenu {
+	margin-bottom: 1em;
+}
+
+
+
+a {
+color: #a22;
+text-decoration: none;
+}
+
+a:hover {
+color: #e22;
+}
+
+a.booklinks {
+color: #888;
+}
+
+h2 a, h3 a, h4 a, {
+  font-weight: normal;
+  color: #a22;
+}
+
+
+div.maincontent {
+  max-width:36em;
+  margin: auto;
+  clear: both;
+  float: none;
+}
+
+p.resume {
+  font-size: 1em;
+  line-height:1.5em;
+  margin: 0;
+}
+
+.important {
+	/*text-transform: uppercase;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 0.2em;*/
+	background: rgb(255, 255, 0);
+}
+
+hr {
+  	width: 100%;
+  	max-width: 36em;
+  	margin: auto;
+  	border: 1px solid #eee;
+}
+
+.header hr{
+	border: #999 solid 1px;
+	clear: both;
+	width: 100%;
+	max-width: 60em;
+}
+
+blockquote {
+  padding-left: 1.5em;
+  margin-left:0;
+  max-width: 33em;
+  font-size: 0.9em;
+  border-left: #eee solid 8px;
+}
+
+del code, strike code{
+	color: #aaa;
+}
+
+code { 
+  background-color: #f4f4f4;
+  color: #111;
+  font-size: 1.05em;
+  padding: 0.25em;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+}
+
+
+ul li {
+  list-style-type: none;
+  padding:0em 0 0 0;
+}
+
+ 
+
+ol li {
+  padding:0.5em 0 0 0;
+}
+
+
+li p {
+	margin: 0;
+	padding: 0;
+	}
+
+del { color: #aaa;}
+
+#content {
+  margin-top:0;
+}
+
+
+.image-caption {
+  line-height:0.4em;
+  padding:0;
+}
+
+.resources {
+  margin-top: 0.4em;
+}
+
+.resources a{
+  font-weight:normal;
+}
+
+
+.quotes p {
+  font-size: 1.4em;
+  line-height: 1.7em;
+  text-indent: -0.45em;
+  margin-bottom: 0;
+  margin-top: 2em;
+  max-width: 24em;
+}
+
+.quotes h5 {
+  margin-top: 0.3em;
+}
+
+
+.musthave { font-size: 0.7em; background-color: #555; color: #fff; line-height:0.7em; text-transform:uppercase;}
+ 
+
+
+img {
+	max-width: 100%;
+	text-align: left;
+	}
+
+.comment { display: none; }
+
+.hidden { display: none; }
+
+
+
+@media only screen and (max-width: 60em) {
+
+body {
+	margin: 0 auto;
+	padding: 1em;
+}
+
+}
+@media only screen and (max-width: 54em) {
+
+.header h1 {
+	float: none;
+	width: 100%;
+}
+
+body {
+	max-width: 36em;
+}
+
+div.menu {
+	max-width: 40em;
+	margin: auto;
+	padding-left: 0em;
+	min-height: 4em;
+}
+
+.header h1 {
+	max-width: 30em;
+	margin: 2em auto 1em;
+}
+
+.header ul {
+	margin-top: 0;
+	float: left;
+}
+
+
+}
+
+/* 
+@media only screen and (max-width: 1060px) {
+
+  
+  #header .wrapper {
+  		padding-left:40px;
+	}
+  	div[data-content-field="main-content"] {
+	  margin-left:205px;
+	}
+}
+
+@media only screen and (min-width: 640px) and (max-width: 830px) {
+#header {
+  width:768px;
+}
+
+#header #logo{
+  	padding-left: 40px;
+}  
+  
+#header .primary-nav .nav {
+  	margin: 1em 0 1em 40px;
+} 
+
+div[data-content-field="main-content"] {
+  margin-left: 50px;
+}
+  
+}
+ */
+
+ 
