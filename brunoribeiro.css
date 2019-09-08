@@ -62,16 +62,16 @@ p {
 
 
 p, li {
-	font-family: Georgia;
+	font-family:  aktiv-grotesk, Helvetica, serif;
 	}
 
 h1, h2, h3, h4, h5, h1 a, .menu ul li a, h5 a  {
-	font-family: Helvetica, sans-serif;
+	font-family:  aktiv-grotesk, Helvetica, serif;
 	color: #333;
 }
 
 ul.submenu li a  {
-	font-family: Helvetica, sans-serif;
+	font-family:  aktiv-grotesk, Helvetica, serif;
 	color: #333;
 }
 
